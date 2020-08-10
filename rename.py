@@ -1,4 +1,8 @@
-import os, webbrowser, tkinter, win32gui, win32com
+import os
+import webbrowser
+from tkinter import filedialog,simpledialog
+import tkinter
+import win32gui, win32com.client
 
 gui = tkinter.Tk()
 gui.title("Rename")
